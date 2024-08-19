@@ -30,12 +30,12 @@ def rock_paper_scissor_HASIBENUR_TUNC():
 
             if playerChoice == 'q':
                 print('Quitting the game')
-                return  # Now 'return' is inside the function.
+                return  
             if playerChoice not in list:
                 print('This is an invalid login. Please enter a valid login')
                 continue
 
-            computerChoice = random.choice(list)  #  bilgisayarın rastgele seçim yapması için
+            computerChoice = random.choice(list) 
             print(f"Computer choice : {computerChoice}")
 
             if playerChoice == computerChoice:
